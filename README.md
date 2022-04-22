@@ -13,4 +13,4 @@ to set up the GUI and to be used n the main.py file.
 The GUI app also contains a top frame that shows your current battery percentage and your plugged in status.
 The bottom frame of the GUI is used to set the notifications so that your device can notify you when your device has reach the battery percentage that you have set. 
 
-This project imports tkinter, plyer, and psutil. We import the notifcations function from plyer and the sensor battery class from psutil.
+This project imports tkinter, plyer, and psutil. We import the notifcations function from plyer and the sensor battery class from psutil. You will need to install both plyer and psutil by using pip in order to use this program.
