@@ -35,8 +35,8 @@ def main():
     battery_label = Label(top_frame, text="Battery", font=("Verdana bold", 20), bg="#4A7A8C").place(
         x=battery_GUI.prct(40, battery_GUI.width), y=battery_GUI.prct(3, battery_GUI.height))
 
-    percentage_text = Label(top_frame, text="%", bg="#4A7A8C", font=("Verdana bold", 10)).place(
-        x=battery_GUI.prct(46, battery_GUI.width), y=battery_GUI.prct(20, battery_GUI.height))
+    percentage_text = Label(top_frame, text="%", bg="#4A7A8C", font=("Verdana bold", 15)).place(
+        x=battery_GUI.prct(55, battery_GUI.width), y=battery_GUI.prct(25, battery_GUI.height))
 
     # bottom frame label
     settings = Label(bottom_frame, text="Notification", font=("Verdana bold", 20), bg="black", fg="white").place(
